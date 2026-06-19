@@ -1,0 +1,24 @@
+const { chromium } = require("playwright");
+const fs = require("fs");
+
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+
+  // replace with product URL
+  await page.goto("https://example.com", { waitUntil: "domcontentloaded" });
+
+  const data = await page.evaluate(() => {
+    return {
+      title: document.querySelector("h1")?.innerText || "",
+      price: document.querySelector(".price")?.innerText || "",
+      description: document.querySelector("p")?.innerText || ""
+    };
+  });
+
+  console.log(data);
+
+  fs.writeFileSync("output.json", JSON.stringify(data, null, 2));
+
+  await browser.close();
+})();

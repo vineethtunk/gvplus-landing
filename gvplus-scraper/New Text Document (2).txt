@@ -1,0 +1,217 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GV Plus | Wholesale Homeware & Water Solutions</title>
+
+<meta name="description"
+content="GV Plus is your trusted wholesale partner for Milton products, corporate gifting solutions, homeware products, and water treatment systems. Website launching soon.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f8fafc;
+    color:#1e293b;
+    min-height:100vh;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
+}
+
+header{
+    padding:25px 0;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:700;
+    color:#0f766e;
+}
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:850px;
+}
+
+.badge{
+    display:inline-block;
+    background:#ccfbf1;
+    color:#115e59;
+    padding:10px 18px;
+    border-radius:30px;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+h1{
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.highlight{
+    color:#0f766e;
+}
+
+.subtitle{
+    font-size:20px;
+    color:#475569;
+    margin-bottom:35px;
+    line-height:1.6;
+}
+
+.categories{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+    margin-bottom:40px;
+}
+
+.category{
+    background:white;
+    padding:12px 18px;
+    border-radius:10px;
+    border:1px solid #e2e8f0;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:15px 28px;
+    border-radius:10px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.primary{
+    background:#0f766e;
+    color:white;
+}
+
+.primary:hover{
+    opacity:.9;
+}
+
+.secondary{
+    background:white;
+    border:1px solid #cbd5e1;
+    color:#0f172a;
+}
+
+.secondary:hover{
+    background:#f1f5f9;
+}
+
+footer{
+    text-align:center;
+    padding:30px 0;
+    color:#64748b;
+}
+
+@media(max-width:768px){
+
+h1{
+    font-size:38px;
+}
+
+.subtitle{
+    font-size:18px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<div class="logo">GV PLUS</div>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="badge">
+🚀 Website Launching Soon
+</div>
+
+<h1>
+Wholesale Solutions for
+<span class="highlight">Home & Industry</span>
+</h1>
+
+<p class="subtitle">
+Authorized Milton Dealer offering homeware products, thermoware,
+corporate gifting solutions, and water treatment systems for
+retailers, distributors, businesses, and institutions.
+</p>
+
+<div class="categories">
+<div class="category">Milton Products</div>
+<div class="category">Homeware</div>
+<div class="category">Corporate Gifting</div>
+<div class="category">RO Plants</div>
+<div class="category">Water Filtration</div>
+<div class="category">Bulk Supply</div>
+</div>
+
+<div class="buttons">
+
+<a href="https://wa.me/91XXXXXXXXXX?text=Hi%20GV%20Plus%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products."
+class="btn primary">
+Contact on WhatsApp
+</a>
+
+<a href="mailto:info@gvplus.in"
+class="btn secondary">
+Email Us
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 GV Plus. All Rights Reserved.
+<br><br>
+Purity for Industry, Quality for Home.
+</footer>
+
+</div>
+
+</body>
+</html>
